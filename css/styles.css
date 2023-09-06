@@ -1,0 +1,1015 @@
+/* Incio de css de index */
+/* Estilo para la barra superior */
+.spacer {
+    width: 20px; /* Ancho del espacio entre teléfono y correo */
+    height: 1px; /* Altura mínima para crear el espacio */
+    background-color: transparent; /* Color transparente para el espacio */
+    flex-grow: 1; /* Permite que el espacio crezca y ocupe todo el espacio disponible */
+}
+
+
+
+/* Para sombrear */
+  
+.menu-link:hover {
+    color: #036103; /* Cambia el color del texto cuando el mouse pasa sobre el enlace */
+    background-color: #ffffff; /* Cambia el color de fondo cuando el mouse pasa sobre el enlace */
+  }
+
+.barra-superior {
+    background-color: #036103; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    padding: 10px 0; /* Espaciado interior arriba y abajo */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos en los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.contacto {
+    margin-left: 20px; /* Margen izquierdo para el área de contacto */
+    display: flex;
+}
+
+.redes-sociales img {
+    margin-right: 10px; /* Margen derecho entre los iconos de redes sociales */
+    text-decoration: none;
+    color: white;
+    width: 25px; /* Ancho deseado, por ejemplo, 32 píxeles */
+    height:25px; /* Altura deseada, por ejemplo, 32 píxeles */
+}
+
+/* Estilo para el menú de navegación */
+.navbar {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar-menu ul li.current a {
+    background-color: #036103;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+  /* Estilo para los logotipos (modificado) */
+.logo-left img {
+    max-width: 150px;
+    float: left; /* Alinea el logo izquierdo a la izquierda */
+    width: 500px; /* Ancho deseado */
+    height:auto; /* Altura deseada */
+  }
+  
+  .logo-right img {
+    max-width: 170px;
+    float: right; /* Alinea el logo derecho a la derecha */
+    width: 500px; /* Ancho deseado */
+    height:auto; /* Altura deseada */
+  }
+  /* Estilo para el menú de navegación */
+  .navbar-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  /* Estilos generales */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border: 20px solid #036103;
+  }
+  
+  .contenido {
+    margin: 20px; /* Ajusta el margen según tu preferencia */
+    padding: 0px; /* Ajusta el espacio interior según tu preferencia */
+    background-color: #ffffff; /* Color de fondo del contenido */
+    text-align: left;
+}
+
+
+/* Estilos para la sección de pie de página */
+.footer {
+    background-color: #036103;
+    padding: 20px 0;
+}
+
+/* Estilos para la fila de columnas */
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuir las columnas uniformemente */
+}
+
+
+
+
+/* Estilos para la fila de columnas */
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; /* Alinea las columnas a la derecha */
+}
+
+/* Estilos para las columnas de enlaces y redes sociales */
+.footer-links,
+.social-link {
+    width: 15%; /* Ancho de las columnas */
+    padding: 0 5px; /* Espaciado interno para las columnas */
+}
+
+/* Estilos para el encabezado en las columnas */
+.footer-links h4 {
+    font-size: 15px;
+    color: #f5f5f5;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* Estilos para los enlaces en las columnas */
+.footer-links ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #f5f5f5;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+
+/* Estilos para los íconos de redes sociales */
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    color: #f5f5f5;
+    transition: all .5s ease;
+}
+
+.logo-Pie img{
+    width: 200px;
+    margin-left: 200px;
+    margin-top: -800px;
+    }
+
+    /* Fin de css de index */
+
+.textosuperior h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 1px;
+  text-decoration: underline;
+  
+}
+
+
+/* Incio de css de servicios */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.servicios-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.servicio {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.servicio:nth-child(odd) {
+  background-color: white;
+}
+
+.servicio:nth-child(even) {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.servicio img {
+  max-width: 80px;
+  height: auto;
+}
+
+
+
+/* Fin de css de servicios*/
+
+
+/* Incio de css de ondotologia.html */
+/* Estilos para encabezados */
+/* Estilos para el encabezado h1 */
+.contenido_odon h1 {
+  text-align: center;
+  font-size: 65px;
+  color: #333; /* Cambiar el color del texto */
+  margin-top: 20px; /* Espaciado superior */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+/* Estilos para las imágenes */
+.contenido_odon img {
+  width: 300px;
+  display: block;
+  margin: 20px auto; /* Espaciado uniforme */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.contenido_odon img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse */
+}
+
+/* Estilos para el encabezado h2 */
+.contenido_odon h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #555; /* Cambiar el color del texto */
+  margin-top: 20px;
+}
+
+/* Estilos para el encabezado h3 */
+.contenido_odon h3 {
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+/* Estilos para el bloque de listas centradas */
+.centrar-listas {
+  text-align: center;
+}
+
+.centrar-listas ul,
+.centrar-listas ol {
+  text-align: left;
+  display: inline-block;
+  padding-left: 0; /* Eliminar el espacio de relleno izquierdo predeterminado */
+  margin: 20px auto; /* Espaciado uniforme */
+}
+
+
+/* Estilos para el bloque de listas con margen izquierdo */
+.mover-listas {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+/* Estilos para los elementos de lista dentro del cuadro */
+.mover-listas li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista */
+.mover-listas li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+
+
+
+
+/* fin de css de ondotologia.html */
+
+
+
+
+
+/* Incio de css de terapia_fisica.html */
+
+.contenido_tfisica h1{
+  text-align: center;
+  font-size: 65px;
+  color: #333; /* Cambiar el color del texto */
+  margin-top: 20px; /* Espaciado superior */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+
+.contenido_tfisica img{
+  width: 300px;
+  display: block;
+  margin: 20px auto; /* Espaciado uniforme */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.contenido_tfisica img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse */
+}
+
+/* Estilos para el bloque de listas centradas */
+.lista-tfisica1{
+  text-align: center;
+  font-size: 24px;
+  color: #555; /* Cambiar el color del texto */
+  font-weight: bold; /* Negrita */
+  margin-top: 20px;
+}
+
+.lista-tfisica1 ul,
+.lista-tfisica1 ol {
+  text-align: left;
+  display: inline-block;
+  padding-left: 0; /* Eliminar el espacio de relleno izquierdo predeterminado */
+  margin: 20px auto; /* Espaciado uniforme */
+}
+
+.contenido_tfisica p{
+  text-align: center;
+}
+
+/* Estilos para el encabezado h3 */
+.contenido_tfisica h3 {
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+
+.contenido_tfisica h4{
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+
+/* Estilos para el bloque de listas 2 con margen izquierdo */
+.lista-tfisica2 {
+	margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+.lista-tfisica2 li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista 3 */
+.lista-tfisica2 li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+
+
+}
+/* Estilos para el bloque de listas 3 con margen izquierdo */
+.lista-tfisica3 {
+	margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+.lista-tfisica3 li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista 3 */
+.lista-tfisica3 li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+
+/* Fin de css de terapia_fisica.html */
+
+
+
+/* Inicio de css de terapia_ocupacional.html */
+
+.contenido_tocupacional h1{
+  text-align: center;
+  font-size: 65px;
+  color: #333; /* Cambiar el color del texto */
+  margin-top: 20px; /* Espaciado superior */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+
+}
+
+.contenido_tocupacional img{
+  width: 300px;
+  display: block;
+  margin: 20px auto; /* Espaciado uniforme */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.contenido_tocupacional img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse */
+}
+
+
+.contenido_tocupacional h2{
+  text-align: center;
+  font-size: 24px;
+  color: #555; /* Cambiar el color del texto */
+  margin-top: 20px;
+}
+
+.contenido_tocupacional p{
+  text-align: center;
+}
+
+.contenido_tocupacional h3{
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+.lista-tocupacional1 {
+	margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+/* Estilos para los elementos de lista dentro del cuadro */
+.lista-tocupacional1 li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista */
+.lista-tocupacional1 li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+
+.contenido_tocupacional h4{
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+.lista-tocupacional2 {
+	margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+/* Estilos para los elementos de lista dentro del cuadro */
+.lista-tocupacional2 li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista */
+.lista-tocupacional2 li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+/* Fin de css de terapia_ocupacional.html */
+
+
+
+
+/* Inicio de css de terapia_lenguaje.html */
+
+.contenido_lenguaje h1{
+  text-align: center;
+  font-size: 65px;
+  color: #333; /* Cambiar el color del texto */
+  margin-top: 20px; /* Espaciado superior */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.contenido_lenguaje img{
+  width: 300px;
+  display: block;
+  margin: 20px auto; /* Espaciado uniforme */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.contenido_lenguaje img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse */
+}
+
+
+.contenido_lenguaje h2{
+  text-align: center;
+  font-size: 24px;
+  color: #555; /* Cambiar el color del texto */
+  margin-top: 20px;
+}
+
+.contenido_lenguaje p{
+  text-align: center;
+}
+
+
+.contenido_lenguaje h3{
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+.lista-lenguaje {
+	margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+/* Estilos para los elementos de lista dentro del cuadro */
+.lista-lenguaje li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista */
+.lista-lenguaje li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+
+/* fin de css de terapia_lenguaje.html */
+
+
+
+/* Inicio de css de psicologia.html */
+
+.contenido_psicologia h1{
+  text-align: center;
+  font-size: 65px;
+  color: #333; /* Cambiar el color del texto */
+  margin-top: 20px; /* Espaciado superior */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+
+}
+
+.contenido_psicologia img{
+  width: 300px;
+  display: block;
+  margin: 20px auto; /* Espaciado uniforme */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.contenido_psicologia img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse */
+}
+.contenido_psicologia h2{
+  text-align: center;
+  font-size: 24px;
+  color: #555; /* Cambiar el color del texto */
+  margin-top: 20px;
+}
+
+
+.lista-psicologia {
+	text-align: center;
+}
+
+.lista-psicologia ul,
+.lista-psicologia ol {
+	text-align: left;
+	display: inline-block;
+}
+
+
+.contenido_psicologia h3{
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+.lista-psicologia2 {
+	margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+
+/* Estilos para los elementos de lista dentro del cuadro */
+.lista-psicologia2 li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista */
+.lista-psicologia2 li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+
+/* Fin de css de psicologia.html */
+
+
+/* Inicio de css de obstetricia.html */
+
+.contenido_obste h1{
+  text-align: center;
+  font-size: 65px;
+  color: #333; /* Cambiar el color del texto */
+  margin-top: 20px; /* Espaciado superior */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.contenido_obste img{
+  width: 300px;
+  display: block;
+  margin: 20px auto; /* Espaciado uniforme */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.contenido_obste img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse */
+}
+
+.contenido_obste h2{
+  text-align: center;
+  font-size: 24px;
+  color: #555; /* Cambiar el color del texto */
+  margin-top: 20px;
+}
+
+.lista-obs {
+	text-align: center;
+}
+
+.lista-obs ul,
+.lista-obs ol {
+	text-align: left;
+	display: inline-block;
+}
+
+.contenido_obste h3{
+  margin-left: 60px;
+  font-size: 18px;
+  color: #777; /* Cambiar el color del texto */
+  font-weight: normal; /* Fuente normal */
+}
+
+.lista-obs2 {
+	margin-left: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+/* Estilos para los elementos de lista dentro del cuadro */
+.lista-obs2 li {
+  background-color: #f7f7f7; /* Color de fondo del cuadro */
+  border: 1px solid #ddd; /* Borde del cuadro */
+  padding: 10px; /* Espaciado dentro del cuadro */
+  margin: 5px 0; /* Espaciado entre elementos de lista */
+  border-radius: 5px; /* Bordes redondeados del cuadro */
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre los elementos de lista */
+.lista-obs2 li:hover {
+  background-color: #e0e0e0; /* Cambiar el color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+
+
+/* Fin de css de obstetricia.html */
+
+
+
+/* Inicio seccion de contacto-formulario*/
+form.form_contact{
+  width: 62%;
+  padding: 30px 40px;
+}
+
+form.form_contact h2{
+font-size: 25px;
+font-weight: 600;
+color: #303030;
+margin-bottom: 30px;
+}
+
+form.form_contact .user_info{
+  display: flex;
+  flex-direction: column;
+}
+
+form.form_contact label{
+  font-weight: 600;
+}
+
+form.form_contact input,
+form.form_contact textarea{
+  width: 100%;
+  padding: 8px 0px 5px;
+  margin-bottom: 20px;
+
+  border: none;
+  border-bottom: 2px solid #D1D1D1;
+
+  font-family: 'Open sans';
+color: #5A5A5A;
+font-size: 14px;
+font-weight: 400;
+}
+
+form.form_contact textarea{
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 90px;
+}
+
+form.form_contact input[type="submit"]{
+  width: 180px;
+background: #4091EC;
+padding: 10px;
+border: none;
+border-radius: 25px;
+
+  align-self: flex-end;
+
+  color: #fff;
+font-family: 'Open sans';
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+}
+
+form.form_contact input[type="submit"]:hover{
+  background: #3371B6;
+}
+
+/* Ventana de errores*/
+.modal_wrap{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensaje_modal{
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  width: 400px;
+  padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3{
+  text-align: center;
+  font-family: 'Ubuntu';
+font-size: 20px;
+font-weight: 400;
+}
+
+.mensaje_modal h3:after{
+  content: '';
+display: block;
+width: 100%;
+height: 1px;
+background: #C5C5C5;
+margin: 10px 0px 15px;
+}
+
+.mensaje_modal p{
+  font-size: 16px;
+  color: #606060;
+}
+
+.mensaje_modal p:before{
+  content: "\f00d";
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #E25151;
+  margin-right: 8px;
+}
+
+#btnClose {
+  display: inline-block;
+ padding: 3px 10px;
+ margin-top: 10px;
+ background: #E25151;
+ color: #fff;
+ border: 2px solid #B14141;
+ cursor: pointer;
+}
+
+ form.form_contact{
+  width: 62%;
+  padding: 30px 40px;
+}
+
+form.form_contact h2{
+font-size: 25px;
+font-weight: 600;
+color: #303030;
+margin-bottom: 30px;
+}
+
+form.form_contact .user_info{
+  display: flex;
+  flex-direction: column;
+}
+
+form.form_contact label{
+  font-weight: 600;
+}
+
+form.form_contact input,
+form.form_contact textarea{
+  width: 100%;
+  padding: 8px 0px 5px;
+  margin-bottom: 20px;
+
+  border: none;
+  border-bottom: 2px solid #D1D1D1;
+
+  font-family: 'Open sans';
+color: #5A5A5A;
+font-size: 14px;
+font-weight: 400;
+}
+
+form.form_contact textarea{
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 90px;
+}
+
+form.form_contact input[type="submit"]{
+  width: 180px;
+background: #4091EC;
+padding: 10px;
+border: none;
+border-radius: 25px;
+
+  align-self: flex-end;
+
+  color: #fff;
+font-family: 'Open sans';
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+}
+
+form.form_contact input[type="submit"]:hover{
+  background: #3371B6;
+}
+
+/* Ventana de errores*/
+.modal_wrap{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensaje_modal{
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  width: 400px;
+  padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3{
+  text-align: center;
+  font-family: 'Ubuntu';
+font-size: 20px;
+font-weight: 400;
+}
+
+.mensaje_modal h3:after{
+  content: '';
+display: block;
+width: 100%;
+height: 1px;
+background: #C5C5C5;
+margin: 10px 0px 15px;
+}
+
+.mensaje_modal p{
+  font-size: 16px;
+  color: #606060;
+}
+
+.mensaje_modal p:before{
+  content: "\f00d";
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #E25151;
+  margin-right: 8px;
+}
+
+#btnClose{
+  display: inline-block;
+  padding: 3px 10px;
+  margin-top: 10px;
+
+  background: #E25151;
+  color: #fff;
+  border: 2px solid #B14141;
+  cursor: pointer;
+  float: right;
+}
+
+
+/* Fin seccion de contacto-formulario*/
